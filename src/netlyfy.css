@@ -1,0 +1,80 @@
+.Final {
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(white, burlywood);
+    padding: 8px;
+}
+
+.Logo {
+    margin-right: 340px;
+}
+
+.Majorcontainer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border-color: red;
+}
+
+.RED {
+    color: red;
+}
+
+.Heading {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Heading1 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Container > ul > li {
+    text-indent: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Heading3 {
+    margin-right: 260px;
+}
+
+.Heading4 {
+    margin-right: 580px;
+}
+
+.Heading5 {
+    margin-right: 28px;
+}
+
+.Heading6,
+.Heading7,
+.Heading8,
+.Heading9 {
+    font-weight: 500;
+}
+
+.Heading9 {
+    margin-right: 0px;
+}
+
+
+@media (max-width: 768px) {
+    .Logo {
+        margin-right: 0;
+    }
+
+    .Majorcontainer {
+        flex-direction: column;
+    }
+
+    .Heading3,
+    .Heading4,
+    .Heading5 {
+        margin-right: 0;
+    }
+}

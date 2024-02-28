@@ -1,0 +1,46 @@
+.Footer {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row; 
+    gap: 200px;
+    padding: 40px;
+}
+
+.Footerhead {
+    background-color: red;
+    width: auto;
+    height: 100px;
+}
+
+.Footer1 > a > i {
+    color: burlywood;
+    font-size: xx-large;
+    padding-right: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.Footer1 > a {
+    color: burlywood;
+}
+
+.Footer2 > a > i {
+    color: burlywood;
+    font-size: xx-large;
+    padding-right: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.Footer2 > a {
+    color: burlywood;
+}
+
+.Footer3 > a > i {
+    color: burlywood;
+    font-size: xx-large;
+    padding-right: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.Footer3 > a {
+    color: burlywood;
+}
